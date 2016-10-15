@@ -1,0 +1,39 @@
+body{overflow-x:hidden;width:100%;font: 12px "Century Gothic", "Times Roman", sans-serif;background:#eee;min-height:550px;background-attachment:fixed;}
+.bg{min-height:540px;}
+.bg1{background:url(../image/bg.jpg);min-height:535px;background-repeat: repeat-x;background-color: #202020;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
+@font-face {font-family: 'typo';src: url('../fonts/typo.ttf');}
+@font-face {font-family: 'gothic';src: url('../fonts/gothics.ttf');}
+.panel{border-color:#eee;margin:40px;padding:20px;font: 15px "Century Gothic", "Times Roman", sans-serif;}
+.title{font-family:'typo';}
+.header{background:#202020;height:70px;}
+.logo{font-family:'typo';font-size:35px;color:#ffffff;margin:15px;}
+.title1{font: 12px "Century Gothic", "Times Roman", sans-serif;}
+.title2{font-family: 'Ubuntu', sans-serif;font-size:20px;}
+.sub1{color:#FFFFFF;background:#0000ff;font-size:15px;margin:20px;padding:8px;}
+.logb{color:#FFFFFF;background:#0000ff;font-size:15px;margin:20px;padding:8px;}
+.logb:hover{color:lightyellow;}
+.sub{color:#FFFFFF;background:#0000ff;font-size:15px;margin:20px;padding:8px;}
+.sub:hover{background-color:#000066;}
+.footer{font-size:15px;text-align:center;border-top:1px solid;border-color:#323232;background-color:#202020;}
+.footer a{margin:25px;color:#0000ff;text-decoration:none;font: 15px "Century Gothic", "Times Roman", sans-serif;}
+.box{padding:9px;}
+hr{color:#000000;}
+.top{margin-top:20px;}
+.log1{font: 15px 'Ubuntu', sans-serif;color:#0000ff;margin-left:10px;}
+.log{margin:10px;margin-right:60px;margin-left:5px;color:#ffffb3;text-decoration:none;font-size:20px;font-size:15px;}
+.log:hover{color:#ffffff;border-top:2px solid;border-color:#000000;text-decoration:none;}
+.funkyradio div {clear: both;}
+.funkyradio label {border-radius: 3px;border: 1px solid #D1D3D4;font-weight: normal;}
+.funkyradio input[type="radio"]:empty,.funkyradio input[type="checkbox"]:empty {display: none;}
+.funkyradio input[type="radio"]:empty ~ label,.funkyradio input[type="checkbox"]:empty ~ label {position: relative;line-height: 2.5em;text-indent: 3.25em;cursor: pointer;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.funkyradio input[type="radio"]:empty ~ label:before,.funkyradio input[type="checkbox"]:empty ~ label:before {position: absolute;top: 0;bottom: 0;left: 0;content: '';width: 2.5em;background: #D1D3D4;border-radius: 3px 0 0 3px;}
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label,
+.funkyradio input[type="checkbox"]:hover:not(:checked) ~ label {color: #888;}
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label:before,
+.funkyradio input[type="checkbox"]:hover:not(:checked) ~ label:before {content: '\2714';text-indent: .9em;color: #C2C2C2;}
+.funkyradio input[type="radio"]:checked ~ label,
+.funkyradio input[type="checkbox"]:checked ~ label {color: #777;}
+.funkyradio input[type="radio"]:checked ~ label:before,
+.funkyradio input[type="checkbox"]:checked ~ label:before {content: '\2714';text-indent: .9em;color: #333;background-color: #ccc;}
+.funkyradio input[type="radio"]:focus ~ label:before,.funkyradio input[type="checkbox"]:focus ~ label:before {box-shadow: 0 0 0 3px #999;}
+.funkyradio-success input[type="radio"]:checked ~ label:before,.funkyradio-success input[type="checkbox"]:checked ~ label:before {color: #fff;background-color: #5cb85c;}

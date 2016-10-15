@@ -1,0 +1,21 @@
+This is where the text appears to be put in About page of the website.
+
+Make sure only text content are present in this file.
+
+You don't have to use any HTML character. I have already wrote a script automatically parse the indents and spaces and new lines in this file.
+
+For example - x                       y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
